@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BinSan21/Portfolio/static/css/main.2d58fc46.css",
+    "main.js": "/BinSan21/Portfolio/static/js/main.f24ce8d5.js",
+    "static/js/453.b05d8aa5.chunk.js": "/BinSan21/Portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/mp3player.png": "/BinSan21/Portfolio/static/media/mp3player.ccd0b923ea3e85be8465.png",
+    "static/media/bg-light.png": "/BinSan21/Portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/BinSan21/Portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/indOven.png": "/BinSan21/Portfolio/static/media/indOven.e1529160f6b515ce217a.png",
+    "static/media/trafficHMI.png": "/BinSan21/Portfolio/static/media/trafficHMI.d782cd34ef74f2cf6106.png",
+    "static/media/received_950219686235366.jpeg": "/BinSan21/Portfolio/static/media/received_950219686235366.019a4ae5cfbd28ee6955.jpeg",
+    "static/media/sers.png": "/BinSan21/Portfolio/static/media/sers.764107ff4ed301368ae2.png",
+    "static/media/multisensor.png": "/BinSan21/Portfolio/static/media/multisensor.64295dc8b832f9df1652.png",
+    "index.html": "/BinSan21/Portfolio/index.html",
+    "main.2d58fc46.css.map": "/BinSan21/Portfolio/static/css/main.2d58fc46.css.map",
+    "main.f24ce8d5.js.map": "/BinSan21/Portfolio/static/js/main.f24ce8d5.js.map",
+    "453.b05d8aa5.chunk.js.map": "/BinSan21/Portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d58fc46.css",
+    "static/js/main.f24ce8d5.js"
+  ]
+}
