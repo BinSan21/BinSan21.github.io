@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faUsers, faCertificate } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
@@ -10,56 +10,72 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Education & Experience</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="August 2026 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faUsers} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Undersecretary, Literary Committee</h3>
+            <h4 className="vertical-timeline-element-subtitle">MSU-IIT College of Computer Studies - CA Society</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Leadership, Student Organization, Event Coordination
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faCertificate} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Conferences & AI Training</h3>
+            <h4 className="vertical-timeline-element-subtitle">MSU-IIT, Iligan City</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Participated in the Regional Conference on Information Technology Education (RCITE), ICUNSSI, and AI Career Readiness Training.
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faCertificate} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Tech Symposiums & Workshops</h3>
+            <h4 className="vertical-timeline-element-subtitle">MSU-IIT, Iligan City</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Attended the RT-Thread Based Technology Symposium, my.ComApps Technology Development Program, and Tech Forward smart societies seminar.
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            className="vertical-timeline-element--education"
+            date="2023 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">BS Computer Applications, Major in Embedded Systems</h3>
+            <h4 className="vertical-timeline-element-subtitle">Mindanao State University - Iligan Institute of Technology</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              CGPA: 1.72761. Focused on Firmware, Microcontrollers, RTOS, and IoT architecture.
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2019 - 2023"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faGraduationCap} />}
+          >
+            <h3 className="vertical-timeline-element-title">TVL-CSS Student (With Honors)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Tomas Cabili National High School - Annex</h4>
+            <p>
+              Technical-Vocational-Livelihood track specializing in Computer System Servicing.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
